@@ -1,4 +1,4 @@
 - hosts: all
   tasks: 
-    - name: ping test
+    - name: w command test
       shell: w
