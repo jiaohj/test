@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
     - name: yum test
-      yum: name=telnet state=absent
+      yum: name=telnet state=present
