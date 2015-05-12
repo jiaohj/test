@@ -1,4 +1,4 @@
 - hosts: all
   tasks: 
     - name: w command test
-      shell: python md5.py
+      shell: python /root/deployApp/md5.py
