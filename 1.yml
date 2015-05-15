@@ -1,7 +1,7 @@
 - hosts: all
   tasks: 
     - name: w command test
-      get_url: url=http://192.168.41.129:8888/jiwb dest=/tmp/1.txt
+      shell: python /root/auto/main.py.bak
   #tasks:
   #  -name: cat test
   #    shell: cat /tmp/1.txt
